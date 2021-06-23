@@ -1,0 +1,244 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+header{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+}
+
+li, a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #999;
+}
+
+.hms-logo{
+	top: 0;
+	left: 0;
+	width: 300px;
+}
+
+.nav_links{
+	list-style: none;
+}
+
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a:hover{
+	color: #50ebec;
+}
+/*---------------LOGIN STYLES---------------*/
+.panel{
+    position: relative;
+	top: 50px;
+	text-align:center;
+    width: 70%;
+    margin: auto;
+    height: 400px;
+    background-color: #999;
+}
+
+.login-info-box{
+    width: 50%;
+    padding: 0 50px;
+    top: 40%;
+    left: 50px;
+    position: absolute;
+    text-align: left;
+	color: white;
+	letter-spacing: 2px;
+	
+}
+
+.login-info-box a{
+	padding: 10px;
+	border: 1px solid white;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+.login-info-box a:hover{
+	background-color: #50ebec;
+}
+
+.white-panel{
+    background-color: rgba(255,255, 255, 1);
+    height: 500px;
+    position: absolute;
+    top: -50px;
+    width: 50%;
+    left: calc(50% - 50px);
+    transition: .3s ease-in-out;
+    z-index: 0;
+}
+
+.white-panel h1{
+	font-family: Optima;
+	letter-spacing: 2px;
+	font-size: 50px;
+	color: #50ebec;
+}
+
+.white-panel h3{
+	font-family: Optima;
+	letter-spacing: 2px;
+	font-size: 40px;
+	color: #50ebec;
+}
+
+.white-panel h5{
+	color: #999;
+}
+
+.white-panel input[type="text"], .white-panel input[type="password"], .white-panel input[type="email"]{
+	width: 75%;
+    display: block;
+    margin: 30px auto;
+    padding: 15px;
+    border: 1px solid #8d8d8d;
+    
+}
+
+.btn{
+	display: center-block;
+	width: 50%;
+	height: 50px;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	background-color: #50EBEC;
+	font-size: 20px;
+	color: #fff;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+	text-decoration: blink;
+	margin: 20px;
+}
+
+.btn:hover{
+	background-color: #999;
+	background-position: center;
+}
+
+.white-panel a{
+	right: 50px;
+	display: block;
+	font-size: 1rem;
+	color: #999;
+	margin: 20px;
+}
+
+.white-panel a:hover{
+	color: #50EBEC;
+}
+/*---------------REGISTER STYLES---------------*/
+.reg-info-box{
+    width: 50%;
+    padding: 0 50px;
+    top: 40%;
+    right: 50px;
+    position: absolute;
+    text-align: right;
+	color: white;
+	letter-spacing: 2px;
+	
+}
+
+.reg-info-box a{
+	padding: 10px;
+	border: 1px solid white;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+.reg-info-box a:hover{
+	background-color: #50ebec;
+}
+
+.white-panel2{
+    background-color: rgba(255,255, 255, 1);
+    height: 500px;
+    position: absolute;
+    top: -50px;
+    width: 50%;
+    right: calc(50% - 50px);
+    transition: .3s ease-in-out;
+    z-index: 0;
+}
+
+.white-panel2 h1{
+	font-family: Optima;
+	letter-spacing: 2px;
+	font-size: 50px;
+	color: #50ebec;
+}
+
+.white-panel2 h3{
+	font-family: Optima;
+	letter-spacing: 2px;
+	font-size: 50px;
+	color: #50ebec;
+}
+
+.white-panel2 h5{
+	color: #999;
+}
+
+.white-panel2 input[type="text"], .white-panel2 input[type="password"],
+.white-panel2 input[type="email"]{
+	width: 75%;
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #8d8d8d;
+    
+}
+/*---------------ALERT STYLES---------------*/
+.alert {
+	width: 40%;
+	padding: 10px;
+	background-color: #50ebec;
+	color: white;
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+.alert2 {
+	width: 40%;
+	padding: 10px;
+	background-color: #50ebec;
+	color: white;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.closebtn:hover {
+	color: black;
+}

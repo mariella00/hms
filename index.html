@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>COVID19 Hospital Management System</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+	<header>
+		<img class="hms-logo" src="img/logo.png">	
+		<nav>
+			<ul class="nav_links">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="info.html">COVID19 INFO</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+		<img class="des" src="img/des.svg"> 
+		<img class= "qot" src="img/qot.png">
+		<br><br><br>
+		<a class="btn" href="info.html">&nbsp;Learn More...</a>
+	
+	<div class="logbox">
+	<h1>LOGIN OPTIONS</h1><br><br>
+	<ul class="users">
+				<li><img src="img/admin.png">
+				<br><h3>ADMIN</h3>
+				<a href="admin/login.php">CLICK HERE</a></li>
+				
+				<li><img src="img/doc.png">
+				<br><h3>DOCTOR</h3>
+				<a href="doctor/login.php">CLICK HERE</a></li>
+				
+				<li><img src="img/ptn.png">
+				<br><h3>PATIENT</h3>
+				<a href="patient/login.php">CLICK HERE</a></li>
+				
+				<li><img src="img/nurse.png">
+				<br><h3>NURSE</h3>
+				<a href="nurse/login.php">CLICK HERE</a></li>
+		</ul>
+	</div>
+	
+	
+	</body>
+	<script type="text/javascript">
+		const currentLocation = location.href;
+		const menuItem = document.querySelectorAll('a');
+		const menuLength = menuItem.length
+			for (i = 0; i < menuLength; i++){
+				if(menuItem[i].href === currentLocation){
+					menuItem[i].className = "active"
+				}
+			}
+	</script>
+	
+</html>

@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: Helvetica;
+}
+
+header{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+}
+
+li, a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #999;
+}
+
+.logo{
+	top: 0;
+	left: 0;
+	width: 300px;
+}
+
+.nav_links{
+	list-style: none;
+}
+
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a{
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover,
+.nav_links li a.active{
+	color: #50ebec;
+}
+
+.infos{
+	position: relative;
+	top: 5px;
+	text-align:center;
+    width: 90%;
+    margin: auto;
+    height: 400px;
+}
+
+.lside{
+	width: 40%;
+    padding: 0 50px;
+    top: 5%;
+    left: 50px;
+	height: 320px;
+    position: absolute;
+	background-color: #50ebec;
+	border-radius: 30px;
+}
+
+.lside h3{
+	font-size: 25px;
+	color: #999;
+	letter-spacing: 2px;
+} 
+.lside p{
+	font-size: 18px;
+	color: white;
+	text-align: justify;
+	letter-spacing: .5px;
+}
+
+.rside{
+	width: 40%;
+    padding: 0 50px;
+    top: 5%;
+    right: 50px;
+	height: 250px;
+    position: absolute;
+	background-color: #50ebec;
+	border-radius: 30px;
+}
+
+.rside h3{
+	font-size: 28px;
+	color: #999;
+	letter-spacing: 2px;
+} 
+.rside p{
+	font-size: 18px;
+	color: white;
+	text-align: justify;
+	letter-spacing: .5px;
+}
+
+.spt-infos{
+	position: relative;
+	top: 20%;
+	text-align: center;
+    margin: auto;
+    height: 700px;
+	padding: 30px;
+}
+
+b{
+	color: #50ebec;
+}
+
+hr{
+	padding: 1px;
+	background: white;
+	border: none;
+}
+
+h3{
+	text-align: center;
+	color: #50ebec;
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+
+.data1{
+	position: absolute;
+	background-color: #999;
+	border-radius: 30px;
+	height: 600px;
+	width: 25%;
+	color: white;
+	left: 8%;
+}
+
+.data2{
+	position: absolute;
+	background-color: #999;
+	border-radius: 30px;
+	height: 380px;
+	width: 25%;
+	color: white;
+	left: 38%;
+}
+
+.data3{
+	position: absolute;
+	background-color: #999;
+	border-radius: 30px;
+	height: 730px;
+	width: 25%;
+	color: white;
+	left: 68%;
+}
+
+.footer{
+	position: relative;
+	bottom: 20px;
+	height: 50px;
+}
+
+.footer p{
+	color: #8d8d8d;
+	font-size: 20px;
+	margin-left: 8%;
+}
+
+.panel{
+    position: relative;
+	top: 50px;
+	text-align:center;
+    width: 70%;
+    margin: auto;
+    height: 400px;
+    background-color: #999;
+}

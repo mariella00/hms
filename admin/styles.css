@@ -1,0 +1,366 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+header{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+}
+
+li, a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #999;
+}
+
+.hms-logo{
+	top: 0;
+	left: 0;
+	width: 300px;
+}
+
+.nav_links{
+	list-style: none;
+}
+
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a:hover{
+	color: #50ebec;
+}
+
+/*---------------LOGIN STYLES---------------*/
+.panel{
+    position: relative;
+	top: 50px;
+	text-align:center;
+    width: 70%;
+    margin: auto;
+    height: 400px;
+    background-color: #999;
+}
+
+.login-info-box{
+    width: 50%;
+    padding: 0 50px;
+    top: 40%;
+    left: 50px;
+    position: absolute;
+    text-align: left;
+	color: white;
+	letter-spacing: 2px;
+	
+}
+
+.login-info-box a{
+	padding: 10px;
+	border: 1px solid white;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+.login-info-box a:hover{
+	background-color: #50ebec;
+}
+
+.white-panel{
+    background-color: rgba(255,255, 255, 1);
+    height: 500px;
+    position: absolute;
+    top: -50px;
+    width: 50%;
+    left: calc(50% - 50px);
+    transition: .3s ease-in-out;
+    z-index: 0;
+}
+
+.white-panel h1{
+	font-family: Optima;
+	letter-spacing: 2px;
+	font-size: 50px;
+	color: #50ebec;
+}
+
+.white-panel h5{
+	color: #999;
+}
+
+.white-panel input[type="text"], .white-panel input[type="password"]{
+	width: 75%;
+    display: block;
+    margin: 30px auto;
+    padding: 15px;
+    border: 1px solid #8d8d8d;
+    
+}
+
+.btn{
+	display: center-block;
+	width: 50%;
+	height: 50px;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	background-color: #50EBEC;
+	font-size: 20px;
+	color: #fff;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+	text-decoration: blink;
+	margin: 20px;
+}
+
+.btn:hover{
+	background-color: #999;
+	background-position: center;
+}
+
+.white-panel a{
+	right: 50px;
+	display: block;
+	font-size: 1rem;
+	color: #999;
+	margin: 20px;
+}
+
+.white-panel a:hover{
+	color: #50EBEC;
+}
+
+.alert {
+	width: 40%;
+	padding: 10px;
+	background-color: #50ebec;
+	color: white;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.closebtn:hover {
+	color: black;
+}
+/*---------------HOME STYLES---------------*/
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+.top_navbar{
+	background: #999;
+	height: 60px;
+	display: flex;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.top_navbar .menu{
+	width: calc(100% - 80px);
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.top_navbar .menu .logo{
+	color: #50ebec;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+
+.top_navbar .menu li a{
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	display: inline-block;
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin: 0 10px;
+}
+
+.top_navbar .menu a:hover{
+	background-color: #50ebec;
+}
+
+p{
+	margin-top: 7%;
+	padding: 10px;
+	color: #8d8d8d;
+	font-size: 28px;
+	letter-spacing: 2px;
+}
+
+small{
+	font-size: 18px;
+}
+
+hr{
+	margin-left: .5%;
+	width: 40%;
+	padding: 3px;
+	background: #50ebec;
+	border: none;
+}
+
+.users{
+	padding: 10px;
+	list-style-type: none;
+	text-align: center;
+}
+
+.users h3{
+	color: #50EBEC;
+	padding: 10px;
+}
+
+.users li{
+	display: inline-block;
+	font-size: 20px;
+	padding: 0 45px;
+}
+
+a:hover{
+	color: #50EBEC;
+}
+
+.service{
+	padding: 10px;
+	list-style-type: none;
+	text-align: center;
+}
+
+.service h3{
+	color: #50EBEC;
+	padding: 10px;
+}
+
+.service li{
+	display: inline-block;
+	font-size: 20px;
+	padding: 0 20px;
+}
+/*---------------TABLE STYLES---------------*/
+table{
+	margin-top: 30px;
+	margin-left: 15%;
+	border-collapse: collapse;
+	width: 70%;
+	color: #50ebec;
+	font-size: 16px;
+	text-align: center;
+}
+
+td{
+	padding: 10px;
+}
+
+th{
+	background-color: #8d8d8d;
+	color: white;
+	padding: 10px;
+}
+
+tr:nth-child(even){
+	background-color: white;
+	padding: 10px;
+}
+
+.icn{
+	padding: 3px;
+	border-radius: 3px;
+	background-color: #999;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+
+.icn:hover{
+	background-color: #50ebec;
+}
+/*---------------FORMS STYLES---------------*/
+.dfrm{
+	margin-left: 30%;
+	margin-right: 30%;
+	padding: 10px;
+	background-color: #999;
+	border-radius: 20px;
+}
+
+.dfrm input[type="date"], .dfrm input[type="time"],
+.dfrm input[type="text"], .dfrm input[type="email"],
+.dfrm textarea{
+	width: 65%;
+    display: block;
+    border: 1px solid #999;
+	padding: 8px;
+	margin: auto;
+}
+
+.dfrm input[type="number"], .dfrm select{
+	width: 45%;
+	display: block;
+    border: 1px solid #999;
+	padding: 8px;
+	margin: auto;
+}
+
+.dfrm input[type="file"]{
+	border: none;
+	display: block;
+	padding: 0;
+	margin: auto;
+}
+
+.dfrm label{
+	display: block;
+    color: #50ebec;
+	font-size: 18px;
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+}
+
+.dfrm .fbtn{
+	width: 50%;
+	height: 40px;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	background-color: #50EBEC;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+	margin-left: 25%;
+}
+
+.fbtn:hover{
+	background-color: white;
+	color: #999;
+}
